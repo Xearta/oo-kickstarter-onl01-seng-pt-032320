@@ -1,8 +1,8 @@
 class Project
-  attr_reader :backers, :project
+  attr_reader :backers, :title
 
-  def initialize(project)
-    @project = project
+  def initialize(title)
+    @title = title
     @backers = []
   end
 
