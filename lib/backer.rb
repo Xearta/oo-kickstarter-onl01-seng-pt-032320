@@ -9,6 +9,6 @@ class Backer
   def back_project(project)
     self.backed_projects << project
     tester = Project.new(project)
-    puts tester.title
+    puts tester.backers
   end
 end
