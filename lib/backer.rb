@@ -12,5 +12,6 @@ class Backer
     self.backed_projects << project
     tester = Project.new(project)
     tester.add_backer(self)
+    tester.backers
   end
 end
